@@ -9,6 +9,8 @@ on:
       - 'bucketActions/**'
       - 'terraform/**'
       - '.gitignore'
+      
+  workflow_dispatch:
 
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
