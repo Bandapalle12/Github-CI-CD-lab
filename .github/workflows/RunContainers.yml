@@ -4,7 +4,7 @@ on:
   pull_request:
     branches:
       - main
-      -feature-branch-name
+      - feature-branch-name
     paths-ignore:
       - 'README.md'
       - 'bucketActions/**'
